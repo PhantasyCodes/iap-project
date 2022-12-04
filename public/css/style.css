@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500;600;700;800&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.welcome-body {
+    background-color: #313131;
+    height: 100vh;
+}
+
+.welcome-nav {
+    width: 100vw;
+    height: 7vh;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.welcome-nav a {
+    font-family: Josefin Sans;
+    font-size: 1vw;
+    color: white;
+    margin: 0px 10px;
+    transition: 0.3s;
+}
+
+.welcome-nav a:hover {
+    color: #FF5934;
+}
