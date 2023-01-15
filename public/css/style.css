@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    line-height: normal;
 }
 
 .welcome-body {
@@ -12,20 +13,61 @@
 
 .welcome-nav {
     width: 100vw;
-    height: 7vh;
+    height: 10vh;
     border-bottom: 2px solid white;
     display: flex;
     align-items: center;
+    padding-right: 2vw;
+    background-color: #313131;
+}
+
+.welcome-nav img {
+    max-width: 15vw;
+    margin-right: auto;
+    margin-left: 1vw;
 }
 
 .welcome-nav a {
     font-family: Josefin Sans;
     font-size: 1vw;
     color: white;
-    margin: 0px 10px;
+    margin: 0px 15px;
     transition: 0.3s;
+    font-weight: 300;
 }
 
 .welcome-nav a:hover {
     color: #FF5934;
+}
+
+.welcome-hero h1 {
+    color: white;
+    font-family: Cormorant;
+    font-size: 5vw;
+    font-weight: 400;
+    margin-left: 5vw;
+    margin-top: 10vw;
+    max-width: 60vw;
+}
+
+.welcome-hero h1 span {
+    color: #FF5934;
+}
+
+.welcome-hero img {
+    position: absolute;
+    bottom: 10vh;
+    right: 10vw;
+}
+
+.nav-body {
+    display: flex;
+}
+
+.student-applications-list {
+
+}
+
+.student-application {
+    display: flex;
 }

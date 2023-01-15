@@ -20,6 +20,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('admin');
+Route::get('/student-applications', [App\Http\Controllers\AdminController::class, 'studentApplications'])->name('student-applications');
+Route::post('/student-applications', [App\Http\Controllers\ApplicationController::class, 'edit'])->name('student-applications');
 
 Route::get('/apply', function() {
     return view('apply');
